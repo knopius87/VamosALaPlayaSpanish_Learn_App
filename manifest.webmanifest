@@ -1,0 +1,14 @@
+{
+  "name": "Vamos Roadtrip – Spanisch A2/B1",
+  "short_name": "Vamos!",
+  "description": "Dein Spanisch-Roadtrip im Hippie-Bus durch Spanien.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#170d25",
+  "theme_color": "#32164f",
+  "lang": "de",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
