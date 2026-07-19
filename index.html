@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a1324">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="France Quest – Französisch A2/B1 spielerisch für deine Reise lernen.">
+  <title>France Quest · Tour de France durch die Sprache</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-map" viewBox="0 0 24 24"><path d="m3 5 6-3 6 3 6-3v17l-6 3-6-3-6 3Z"/><path d="M9 2v17M15 5v17"/></symbol>
+      <symbol id="icon-chat" viewBox="0 0 24 24"><path d="M4 4h16v12H9l-5 4Z"/><path d="M8 9h8M8 12h5"/></symbol>
+      <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="11" cy="13" r="8"/><circle cx="11" cy="13" r="3"/><path d="m13 11 8-8M16 3h5v5"/></symbol>
+      <symbol id="icon-puzzle" viewBox="0 0 24 24"><path d="M4 4h6a2.5 2.5 0 1 1 4 0h6v6a2.5 2.5 0 1 1 0 4v6h-6a2.5 2.5 0 1 0-4 0H4v-6a2.5 2.5 0 1 0 0-4Z"/></symbol>
+      <symbol id="icon-trophy" viewBox="0 0 24 24"><path d="M8 3h8v5a4 4 0 0 1-8 0Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4M12 12v5M8 21h8M9 17h6"/></symbol>
+      <symbol id="icon-flame" viewBox="0 0 24 24"><path d="M13 2c1 5-3 5-1 9 1-2 3-2 4-5 3 3 4 6 3 10a7 7 0 0 1-14 0c0-4 2-7 5-10 0 3 1 4 3 5"/></symbol>
+      <symbol id="icon-bolt" viewBox="0 0 24 24"><path d="M13 2 5 14h6l-1 8 9-13h-6Z"/></symbol>
+      <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20 5c-2-2-5-2-7 0l-1 1-1-1C9 3 6 3 4 5c-3 3-1 8 2 11l6 6 6-6c3-3 5-8 2-11Z"/></symbol>
+      <symbol id="icon-hello" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M17 4v5M21 6l-3 4M22 12h-5"/></symbol>
+      <symbol id="icon-train" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="16" rx="4"/><path d="M8 6h8M5 11h14M8 21l2-3M16 21l-2-3M9 15h.01M15 15h.01"/></symbol>
+      <symbol id="icon-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15 7-2 6-6 4 2-6Z"/></symbol>
+      <symbol id="icon-hotel" viewBox="0 0 24 24"><path d="M3 20V5h10v15M13 10h8v10M7 9h2M7 13h2M7 17h2M17 14h.01M17 17h.01M1 20h22"/></symbol>
+      <symbol id="icon-food" viewBox="0 0 24 24"><path d="M6 2v8M3 2v5a3 3 0 0 0 6 0V2M6 10v12M16 2v20M16 2c4 2 5 8 0 11"/></symbol>
+      <symbol id="icon-pharmacy" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z"/></symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></symbol>
+      <symbol id="icon-bag" viewBox="0 0 24 24"><path d="M4 8h16l-1 13H5Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3M8 13h8"/></symbol>
+      <symbol id="icon-football" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 7 4 3-2 5h-4l-2-5ZM12 7V3M16 10l4-1M14 15l2 5M10 15l-2 5M8 10 4 9"/></symbol>
+      <symbol id="icon-alert" viewBox="0 0 24 24"><path d="M12 3 2 21h20Z"/><path d="M12 9v5M12 18h.01"/></symbol>
+      <symbol id="icon-cheers" viewBox="0 0 24 24"><path d="m4 3 2 8a4 4 0 0 0 8-2l-2-6ZM10 14l2 7M8 22l8-2M20 3l-2 8a4 4 0 0 1-3 3"/></symbol>
+      <symbol id="icon-tower" viewBox="0 0 24 24"><path d="M10 2h4M11 2l-2 9-5 11M13 2l2 9 5 11M7 16h10M5 22h14M9 11h6"/></symbol>
+      <symbol id="icon-bike" viewBox="0 0 24 24"><circle cx="6" cy="17" r="4"/><circle cx="18" cy="17" r="4"/><path d="m6 17 4-8h4l4 8M8 13h7M10 9 8 6h3M14 6h3"/></symbol>
+      <symbol id="icon-pen" viewBox="0 0 24 24"><path d="m4 20 4-1 11-11-3-3L5 16Z"/><path d="m14 7 3 3M4 20h16"/></symbol>
+    </defs>
+  </svg>
+  <div class="stage-landscape" aria-hidden="true">
+    <span class="landscape-sun"></span>
+    <span class="landscape-back"></span>
+    <span class="landscape-front"></span>
+    <span class="landscape-detail"></span>
+  </div>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-view="home" aria-label="Zur Startseite">
+        <span class="brand-mark">FQ</span>
+        <span class="brand-copy"><strong>France Quest</strong><small>Cap sur Paris!</small></span>
+      </button>
+      <div class="stats" aria-label="Dein Lernstand">
+        <span class="stat stat-streak" title="Lernserie"><svg class="ui-icon" aria-hidden="true"><use href="#icon-flame"></use></svg><b id="streakValue">1</b></span>
+        <span class="stat stat-xp" title="Erfahrungspunkte"><svg class="ui-icon" aria-hidden="true"><use href="#icon-bolt"></use></svg><b id="xpValue">0</b></span>
+        <span class="stat stat-hearts" title="Herzen"><svg class="ui-icon" aria-hidden="true"><use href="#icon-heart"></use></svg><b id="heartsValue">5</b></span>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Hauptnavigation">
+      <button class="nav-item active" data-view="home"><svg class="ui-icon" aria-hidden="true"><use href="#icon-map"></use></svg><small>Reise</small></button>
+      <button class="nav-item" data-view="learn"><svg class="ui-icon" aria-hidden="true"><use href="#icon-chat"></use></svg><small>Themen</small></button>
+      <button class="nav-item" data-view="practice"><svg class="ui-icon" aria-hidden="true"><use href="#icon-target"></use></svg><small>Üben</small></button>
+      <button class="nav-item" data-view="grammar"><svg class="ui-icon" aria-hidden="true"><use href="#icon-puzzle"></use></svg><small>Grammatik</small></button>
+      <button class="nav-item" data-view="profile"><svg class="ui-icon" aria-hidden="true"><use href="#icon-trophy"></use></svg><small>Profil</small></button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "France Quest – Französisch A2/B1",
+  "short_name": "France Quest",
+  "description": "Deine Tour de France durch die französische Sprache.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090f1d",
+  "theme_color": "#0a1324",
+  "lang": "de",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
